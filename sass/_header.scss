@@ -1,0 +1,22 @@
+header {
+    background-color: $bgColor;
+    color: $mainColor;
+    span {
+        color: $txtColor;
+    }
+    nav {
+        display: flex;
+        ul {
+            text-decoration: none;
+            li {
+                display: inline-block;
+                a {
+                    color: $mainColor;
+                    &:hover {
+                        color: tomato;
+                    }
+                }
+            }
+        }
+    }
+}

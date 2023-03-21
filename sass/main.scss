@@ -1,0 +1,15 @@
+/* comentario */
+// comentario no compila
+
+@import 'vars';
+@import 'header';
+@import 'pages';
+@import 'media';
+
+$boxHeight: 600px;
+
+/* operaciones + - * / */
+.container {
+    width: 300px / (2);
+    height: $boxHeight * 2;
+}

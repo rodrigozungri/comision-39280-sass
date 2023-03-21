@@ -1,0 +1,51 @@
+/* comentario */ /* vars */
+header {
+  background-color: blueviolet;
+  color: tomato;
+}
+header span {
+  color: #000;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  text-decoration: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: tomato;
+}
+header nav ul li a:hover {
+  color: tomato;
+}
+
+.producto {
+  border: 1px solid #000;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: top center;
+}
+.producto .producto__titulo {
+  font-size: 30px;
+}
+.producto .producto__info {
+  font-size: 16px;
+  line-height: 1;
+}
+.producto .producto__link {
+  color: green;
+}
+
+@media (min-width: 768px) {
+  header {
+    background-color: tomato;
+  }
+}
+/* operaciones + - * / */
+.container {
+  width: 150px;
+  height: 1200px;
+}/*# sourceMappingURL=main.css.map */

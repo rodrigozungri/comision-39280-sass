@@ -1,0 +1,18 @@
+.producto {
+    border: $border;
+    background: {
+        color: aquamarine;
+        size: cover;
+        position: top center;
+    };
+    & &__titulo {
+        font-size: 30px;
+    }
+    & &__info {
+        font-size: 16px;
+        line-height: 1;
+    }
+    & &__link {
+        color: green;
+    }
+}
